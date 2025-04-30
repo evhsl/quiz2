@@ -15,12 +15,12 @@ const questions = [
         explanation: "Le MFP n’a jamais refusé de jouer des matchs pour des raisons politiques. À l’inverse, ils étaient régulièrement traités de communistes en raison de leur affinité avec le Parti communiste."
     },
     {
-        text: "Alain Séradin n’avait pas de sac de sport, mais un panier en osier.",
+        text: " Alain Séradin, défenseur du Stade Lamballais dans les années 1970, n’avait pas de sac de sport, mais … un panier en osier.",
         answer: "VRAI",
         explanation: "Pour lui, c’était une manière de pousser à son paroxysme la transgression des règles établies dans le football. Encore aujourd’hui, Alain Séradin se déplace au stade avec son panier en osier."
     },
     {
-        text: "Just Fontaine était proche des idées du MFP.",
+        text: "Just Fontaine, meilleur buteur de l’histoire sur une édition de Coupe du monde (13 buts, en 1958), était proche des idées du MFP.",
         answer: "VRAI",
         explanation: "Les anciens de Lamballe racontent encore leur rencontre avec la star française. Après un match d’Anderlecht, ils se sont retrouvés à l’Hôtel des colonies, à Bruxelles, pour discuter de leur vision commune du football."
     }
@@ -49,7 +49,7 @@ function nextQuestion() {
     if (current < questions.length) {
         showQuestion();
     } else {
-        document.getElementById("quiz").innerHTML = "<p>Quiz terminé. Merci d’avoir participé !</p>";
+        document.getElementById("quiz").innerHTML = "<p>Quizz terminé. Merci d’avoir participé !</p>";
     }
 }
 
