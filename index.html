@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>VRAI OU FAUX - Mouvement Football Progrès</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VRAI OU FAUX</h1>
+        <p class="subtitle">Répondez à 5 questions pour en savoir plus sur le Mouvement Football Progrès.</p>
+        <div id="quiz">
+            <p id="question"></p>
+            <div class="buttons">
+                <button onclick="answer('VRAI')">VRAI</button>
+                <button onclick="answer('FAUX')">FAUX</button>
+            </div>
+            <p id="explanation"></p>
+            <button id="next" onclick="nextQuestion()">Suivant</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

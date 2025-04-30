@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DIN+Condensed:wght@400&display=swap');
+
+body {
+    font-family: 'DIN Regular', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 700px;
+}
+
+h1 {
+    color: #C1020B;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    margin-bottom: 2rem;
+    color: #C1020B;
+}
+
+.buttons button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #D88143;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #D88143;
+}
+
+#next {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    display: none;
+    background-color: #D88143;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#explanation {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
