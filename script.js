@@ -1,26 +1,26 @@
 const questions = [
     {
-        text: "Anecdote 1 : Les joueurs du Stade Lamballais étaient obligés de porter des crampons trop petits pour eux.",
+        text: "Les joueurs du Stade Lamballais étaient obligés de porter des crampons trop petits pour eux.",
         answer: "VRAI",
         explanation: "Ils avaient instauré cette règle pour « mieux ressentir le ballon ». D’après Ivan Le Drogoff, ancien défenseur au Stade Lamballais, « si tu n’avais pas de panaris aux pieds après deux semaines, c’est que tu avais triché !»."
     },
     {
-        text: "Anecdote 2 : Lors de la saison 1975-1976, les joueurs du Stade Lamballais retournaient leurs maillots pour cacher leurs sponsors.",
+        text: "Lors de la saison 1975-1976, les joueurs du Stade Lamballais retournaient leurs maillots pour cacher leurs sponsors.",
         answer: "VRAI",
         explanation: "Tous les joueurs du MFP refusaient d’être des « hommes sandwichs », coincés entre des sponsors à l’avant et à l’arrière des maillots."
     },
     {
-        text: "Anecdote 3 : Les joueurs du MFP refusaient de jouer contre les clubs affiliés à des partis politiques de droite.",
+        text: "Les joueurs du MFP refusaient de jouer contre les clubs affiliés à des partis politiques de droite.",
         answer: "FAUX",
         explanation: "Le MFP n’a jamais refusé de jouer des matchs pour des raisons politiques. A contrario, ils se faisaient traiter de communistes très régulièrement, en référence à leur affinité idéologique avec le Parti communiste."
     },
     {
-        text: "Anecdote 4 : Alain Séradin, défenseur du Stade Lamballais dans les années 1970, n’avait pas de sac de sport, mais … un panier en osier.",
+        text: "Alain Séradin, milieu de terrain du Stade Lamballais dans les années 1970, n’avait pas de sac de sport, mais … un panier en osier.",
         answer: "VRAI",
         explanation: "Pour lui, c’était une manière de pousser à son paroxysme la transgression des codes du football. Encore aujourd’hui, Alain Séradin se déplace au stade avec son panier en osier."
     },
     {
-        text: "Anecdote 5 : Just Fontaine, meilleur buteur de l’histoire sur une édition de Coupe du monde (13 buts, en 1958), était proche des idées du MFP.",
+        text: "Just Fontaine, meilleur buteur de l’histoire sur une édition de Coupe du monde (13 buts, en 1958), était proche des idées du MFP.",
         answer: "VRAI",
         explanation: "Les anciens de Lamballe racontent encore leur rencontre avec la star française. Après un match d’Anderlecht, ils se sont retrouvés à l’Hôtel des colonies, à Bruxelles, pour discuter de leur vision commune du football."
     }
